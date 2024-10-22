@@ -1,0 +1,93 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co.com/w0TJLSt/menu-item-2.png",
+      "recipe_id": "001",
+      "recipe_name": "spicy chicken curry",
+      "short_description": "a rich and flavorful curry with a spicy kick.",
+      "ingredients": [
+        "550g chicken",
+        "120 ml curry sauce",
+        "200 g basil leaves",
+        "100 g onions",
+        "400 g tomatoes"
+      ],
+      "preparing_time": "45 minutes",
+      "calories": "450 kcal"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/0fFNwsS/menu-item-1.png",
+      "recipe_id": "002",
+      "recipe_name": "creamy mushroom pasta",
+      "short_description": "a rich and creamy mushroom sauce with pasta.",
+      "ingredients": [
+        "400 g mushrooms",
+        "200 g pasta",
+        "150 ml cream",
+        "50 g parmesan",
+        "1 tsp black pepper"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": "600 kcal"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/Hq1Y627/menu-item-3.png",
+      "recipe_id": "003",
+      "recipe_name": "grilled salmon with lemon",
+      "short_description": "a simple and healthy grilled salmon recipe with a lemony twist.",
+      "ingredients": [
+        "300 g salmon fillet",
+        "2 tbsp lemon juice",
+        "1 tbsp olive oil",
+        "100 g spinach",
+        "1 tsp salt"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": "350 kcal"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/pjddHJT/menu-item-5.png",
+      "recipe_id": "004",
+      "recipe_name": "vegetable stir-fry",
+      "short_description": "a quick and healthy stir-fry with mixed vegetables.",
+      "ingredients": [
+        "200 g broccoli",
+        "100 g carrots",
+        "150 g bell peppers",
+        "100 g snap peas",
+        "50 ml soy sauce"
+      ],
+      "preparing_time": "25 minutes",
+      "calories": "200 kcal"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/gzgZ8K4/menu-item-6.png",
+      "recipe_id": "005",
+      "recipe_name": "beef tacos",
+      "short_description": "delicious beef tacos with a fresh and tangy topping.",
+      "ingredients": [
+        "300 g ground beef",
+        "100 g cheese",
+        "150 g lettuce",
+        "100 ml salsa",
+        "6 tortillas"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": "500 kcal"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/hYXY6Tn/menu-item-4.png",
+      "recipe_id": "006",
+      "recipe_name": "pancakes with maple syrup",
+      "short_description": "fluffy pancakes topped with sweet maple syrup.",
+      "ingredients": [
+        "200 g flour",
+        "250 ml milk",
+        "2 eggs",
+        "50 g butter",
+        "100 ml maple syrup"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": "300 kcal"
+    }
+  ]
+  
