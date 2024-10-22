@@ -26,7 +26,7 @@ const Navber = () => {
                             <li><a>Blog</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Recipe Calories</a>
+                    <a className="btn btn-ghost text-xl font-bold">Recipe <span className="text-orange-400 font-extrabold">Calories</span></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold">
