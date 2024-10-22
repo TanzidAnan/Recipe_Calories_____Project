@@ -11,12 +11,15 @@ const Banner = () => {
                     <div className="hero-overlay bg-opacity-80 rounded-2xl"></div>
                     <div className="hero-content text-white text-center">
                         <div className="max-w-full">
-                            <h1 className="mb-5 text-5xl font-bold">Discover an exceptional cooking <br /> class tailored for you!</h1>
+                            <h1 className="mb-5 text-3xl lg:text-5xl font-bold">Discover an exceptional cooking <br /> class tailored for you!</h1>
                             <p className="mb-5">
-                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                                quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding <br /> problems to become an exceptionally well world-class Programmer.
                             </p>
-                            <button className="btn btn-primary">Get Started</button>
+                            <div className="flex gap-7 justify-center">
+                            <button className="btn btn-outline btn-primary">Explore Now</button>
+                            <button className="btn btn-outline btn-secondary">Our Feedback</button>
+
+                            </div>
                         </div>
                     </div>
                 </div>
