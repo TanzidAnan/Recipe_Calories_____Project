@@ -1,6 +1,6 @@
 const Navber = () => {
     return (
-        <div className="w-10/12 mx-auto">
+        <div className="">
             <div className="navbar bg-white text-black">
                 <div className="navbar-start">
                     <div className="dropdown">

@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="w-10/12 mx-auto mt-7">
+        <div className=" mt-7">
             <div className="">
                 <div
                     className="hero min-h-[70vh] rounded-2xl"
