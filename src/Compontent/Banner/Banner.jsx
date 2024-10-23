@@ -16,8 +16,8 @@ const Banner = () => {
                             Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding  problems to become an exceptionally well world-class Programmer.
                             </p>
                             <div className="flex gap-7 justify-center">
-                            <button className="btn btn-outline btn-primary">Explore Now</button>
-                            <button className="btn btn-outline btn-secondary">Our Feedback</button>
+                            <button className="btn bg-slate-900 text-white hover:bg-white hover:text-black">Explore Now</button>
+                            <button className="btn bg-slate-50 text-black hover:text-white">Our Feedback</button>
 
                             </div>
                         </div>
