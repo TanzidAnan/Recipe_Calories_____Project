@@ -27,7 +27,7 @@ function App() {
       <section className='flex flex-col lg:flex-row gap-6'>
         <Recipes addRecipesToQueue={addRecipesToQueue}></Recipes>
 
-        <Sitbar></Sitbar>
+        <Sitbar recipesQueue={recipesQueue}></Sitbar>
       </section>
     </div>
     </>

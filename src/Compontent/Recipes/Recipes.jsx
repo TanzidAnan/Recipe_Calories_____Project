@@ -11,7 +11,7 @@ const Recipes = ({addRecipesToQueue}) => {
             .then(data => setRecipes(data))
     }, [])
     return (
-        <div className="w-2/3 mt-4">
+        <div className="w-full lg:w-2/3 mt-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  " >
                 {
                     recipes.map(recipe => <div key={recipe.recipe_id}>
@@ -33,11 +33,11 @@ const Recipes = ({addRecipesToQueue}) => {
                                 <div className="flex gap-5">
                                     <div className="flex items-center">
                                         <i className="fa-regular fa-clock mr-2 text-2xl"></i>
-                                        <p>{recipe.preparing_time}</p>
+                                        <p>{recipe.preparing_time} minutes</p>
                                     </div>
                                     <div className="flex items-center">
                                         <i className="fa-solid fa-fire mr-2 text-2xl"></i>
-                                        <p>{recipe.calories}</p>
+                                        <p>{recipe.calories} kcal</p>
                                     </div>
                                 </div>
                                 <div className="card-actions">
