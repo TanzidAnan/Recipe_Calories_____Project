@@ -11,10 +11,10 @@ const Recipes = () => {
     }, [])
     return (
         <div className="w-2/3 mt-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  " >
                 {
                     recipes.map(recipe => <div key={recipe.recipe_id}>
-                        <div className="card bg-white text-black w-96 shadow-xl ">
+                        <div className="card bg-white text-black w-96 border-2 ">
                             <figure className="px-8 py-6">
                                 <img className="md:h-60 w-full rounded-xl"
                                     src={recipe.recipe_image}
@@ -26,11 +26,21 @@ const Recipes = () => {
                                 <h2 className="text-xl text-slate-700 font-medium">Ingredients: {recipe.ingredients.length}</h2>
                                 <ul className="ml-8">
                                     {
-                                        recipe.ingredients.map((item, idx) =><li className="list-disc text-gray-700" key={idx}>{item}</li>)
+                                        recipe.ingredients.map((item, idx) => <li className="list-disc text-gray-700" key={idx}>{item}</li>)
                                     }
                                 </ul>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
+                                <div className="flex gap-5">
+                                    <div className="flex items-center">
+                                        <i className="fa-regular fa-clock mr-2 text-2xl"></i>
+                                        <p>{recipe.preparing_time}</p>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <i className="fa-solid fa-fire mr-2 text-2xl"></i>
+                                        <p>{recipe.calories}</p>
+                                    </div>
+                                </div>
+                                <div className="card-actions">
+                                    <button className="btn bg-green-500 text-white rounded-2xl border-none">Want to cook</button>
                                 </div>
                             </div>
                         </div>
