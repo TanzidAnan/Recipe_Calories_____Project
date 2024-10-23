@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Banner from './Compontent/Banner/Banner'
 import Navber from './Compontent/Navber/Navber'
@@ -6,7 +7,17 @@ import Recipes from './Compontent/Recipes/Recipes'
 import Sitbar from './Compontent/Sitbar/Sitbar'
 
 function App() {
-
+  const [recipesQueue,setRecipesQueue] =useState([]);
+  const addRecipesToQueue =(recipe) =>{
+    const isExiten =recipesQueue.find(priviousRecipes => priviousRecipes.recipe_id ===recipe.recipe_id)
+    if(!isExiten){
+      setRecipesQueue([...recipesQueue,recipe])
+    }
+    else{
+      alert('Add a cart')
+    }
+    
+  }
 
   return (
     <>
@@ -14,7 +25,7 @@ function App() {
     <Navber></Navber>
     <Banner></Banner>
       <section className='flex flex-col lg:flex-row gap-6'>
-        <Recipes></Recipes>
+        <Recipes addRecipesToQueue={addRecipesToQueue}></Recipes>
 
         <Sitbar></Sitbar>
       </section>
